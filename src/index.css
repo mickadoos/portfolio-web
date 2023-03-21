@@ -1,5 +1,7 @@
+/* // 4.5 paste the link from google fonts website (33:30 time tutorial) */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
+/* // 4.0 page style  */
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +12,7 @@
     text-decoration: none;
  }
 
+ /* // 4.1 custom color variables */
 :root {
     --color-bg: #1f1f38;
     --color-bg-variant: #2c2c6c;
@@ -18,21 +21,25 @@
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
-    --transition: all 400ms ease;
+    --transition: all 400ms ease; /* // 4.10 define the variable transition to use it multiple times */
 
+    /* // 4.2 container width class */
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
 }
 
+/* // 4.3 scroll smoothly through the sections */
 html {
     scroll-behavior: smooth;
 }
 
+/* // 4.4 remove the scrollbar */
 ::-webkit-scrollbar {
     display: none;
 }
 
+/* // 4.6 modify the body */
 body {
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
@@ -41,6 +48,7 @@ body {
     background-image: url(../src/assets/background-web.jpg);
 }
 
+/* // 4.7 create general styles for all the sections */
  /* =================== GENERAL STYLES ===================  */
 
  .container {
@@ -60,6 +68,7 @@ body {
     font-size: 2.5rem;
  }
 
+/* // 4.8 all the components will be wrapped by sections */
  section {
     margin-top: 8rem;
  }
@@ -80,9 +89,10 @@ body {
 
  a {
     color: var(--color-primary);
-    transition: var(--transition);
- }
+    transition: var(--transition); /* // 4.9 define the variable transition to use it multiple times */
+   }
 
+ /* // 4.11 when you hover over an anchor link you change color */
  a:hover {
     color: var(--color-white);
  }
@@ -115,6 +125,7 @@ body {
     object-fit: cover;
  }
 
+ /* // 4.12 define media queries */
  /* ================= MEDIA QUERIES (MEDIUM DEVICES) ============== */
  @media screen and (max-width: 1024px) {
     .container {
