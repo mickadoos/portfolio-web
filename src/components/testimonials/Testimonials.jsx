@@ -44,6 +44,7 @@ const Testimonials = () => {
     },
   ];
   return (
+    // 10.2 chanmge all components to a section parent container with his correspondent id
     <section id="testimonials">
       <h5>Review from clients</h5>
       <h2>Testimonials</h2>

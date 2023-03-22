@@ -22,6 +22,7 @@ const Contact = () => {
   };
 
   return (
+    // 10.2 chanmge all components to a section parent container with his correspondent id
     <section id="contact">
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>

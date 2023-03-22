@@ -5,6 +5,7 @@ import { BsFillPatchCheckFill } from "react-icons/bs";
 
 const Experience = () => {
   return (
+    // 10.2 chanmge all components to a section parent container with his correspondent id
     <section id="experience">
       <h5>What Skills I Have</h5>
       <h2>My Experience</h2>

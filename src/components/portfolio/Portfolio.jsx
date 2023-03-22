@@ -56,6 +56,7 @@ const Portfolio = () => {
   ]
 
   return (
+    // 10.2 chanmge all components to a section parent container with his correspondent id
     <section id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
