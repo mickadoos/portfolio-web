@@ -1,3 +1,4 @@
+/* // 14.0 copy paste the portfolio component (look tut) */
 .portfolio__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

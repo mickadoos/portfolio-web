@@ -1,4 +1,5 @@
- footer {
+/* // 16.0 copy paste the footer component */
+footer {
     background: var(--color-primary);
     padding: 3rem 0;
     text-align: center;

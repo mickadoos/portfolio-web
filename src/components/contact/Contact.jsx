@@ -1,3 +1,4 @@
+// 15.0 copy paste the contact component, install emailjs-com (look tut)
 // 3.0 create all components folders with .jsx file and .css --- then on .jsx file type racfe, press tab and import the .css file 
 import "./Contact.css";
 import { MdOutlineMail } from "react-icons/md";
