@@ -31,7 +31,8 @@
 
 /* // 4.3 scroll smoothly through the sections */
 html {
-    scroll-behavior: smooth;
+      border: 5px solid green;
+      scroll-behavior: smooth;
 }
 
 /* // 4.4 remove the scrollbar */
